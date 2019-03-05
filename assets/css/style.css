@@ -1,0 +1,43 @@
+body {
+  background-image: url(../images/bg.jpg);
+}
+.character {
+  size: 250px;
+  width: 250px;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+  border: 4px solid red;
+  background-color: white;
+}
+
+.enemy {
+  size: 250px;
+  width: 250px;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+  border: 4px solid black;
+  background-color: orangered;
+}
+
+.target {
+  size: 250px;
+  width: 250px;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+  border: 4px solid orangered;
+  background-color: black;
+}
+.charImg {
+  width: 200px;
+  height: 150px;
+  margin: 25px;
+}
+
+section::after {
+  content: "";
+  clear: both;
+  display: table;
+}
