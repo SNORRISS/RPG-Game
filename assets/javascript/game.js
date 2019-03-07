@@ -21,7 +21,7 @@ function Character(name, hp, attack, counter) {
 }
 
 function initializeGame() {
-  obi = new Character("Obi-wan Kenobi", 120, 8, 7);
+  obi = new Character("Obi-wan Kenobi", 120, 8, 8);
   luke = new Character("Luke Skywalker", 100, 10, 5);
   maul = new Character("Darth Maul", 180, 4, 25);
   sidious = new Character("Darth Sidious", 150, 6, 20);
